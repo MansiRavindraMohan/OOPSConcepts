@@ -8,9 +8,15 @@ namespace OOPSConcepts
 {
     public class ClassName
     {
+        //Non-parameterised method
         public void PrintName()
         {
             Console.WriteLine("Mansi Mohan");
+        }
+        //Parameterised method
+        public void PrintType(string name)
+        {
+            Console.WriteLine(name);
         }
     }
 }

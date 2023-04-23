@@ -6,6 +6,7 @@
         {
             ClassName name= new ClassName();
             name.PrintName();
+            name.PrintType("MANSI");
         }
     }
 }
