@@ -7,6 +7,8 @@
             ClassName name= new ClassName();
             name.PrintName();
             name.PrintType("MANSI");
+            Constructor obj= new Constructor();
+            Console.ReadKey();
         }
     }
 }
