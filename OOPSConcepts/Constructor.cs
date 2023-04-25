@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPSConcepts
 {
-    public class Constructor
+    public class Constructor:InterfaceType
     {
         public ClassName demo;
         public Constructor() 
@@ -17,6 +17,12 @@ namespace OOPSConcepts
         {
             Console.WriteLine(name);
             this.demo = demo;
+        }
+
+        public void WithoutImplementationMethod()
+        {
+            Console.WriteLine("hiii all");
+            //throw new NotImplementedException();
         }
     }
 }
