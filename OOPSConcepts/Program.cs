@@ -6,7 +6,6 @@ namespace OOPSConcepts
     {
         public static void Main(string[] args)
         {
-
             Encapsulation encap = new Encapsulation();
             Console.WriteLine(encap.Name);
             encap.Name = "MANSI";
