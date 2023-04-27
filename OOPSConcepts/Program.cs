@@ -1,29 +1,23 @@
-﻿namespace OOPSConcepts
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace OOPSConcepts
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            ClassName name= new ClassName();
-            name.WithoutImplementationMethod();
-            Constructor obj=new Constructor();
-            obj.WithoutImplementationMethod();
-            //this is enum
-            Console.WriteLine(Project.Mansi);
-            int count=(int) Project.Mansi;
-            Console.WriteLine(count);
-            //Inheritance
-            ParentClass parent= new ParentClass();
-            Console.WriteLine(parent.name = "Mansi");
-            parent.TestName();
-            parent.Class();
 
-            //name.PrintName();
-            //name.PrintType("MANSI");
-            //name.Number();
-            //name.NumberTwo(145,255,367);
-            //Constructor obj= new Constructor();
-            //Console.ReadKey();
+            Encapsulation encap = new Encapsulation();
+            Console.WriteLine(encap.Name);
+            encap.Name = "MANSI";
+            Console.WriteLine(encap.Name);
+            Console.WriteLine(encap.RollNo = 456);
+            //OverLoading over =new OverLoading();
+            //over.MethodOne();
+            //over.MethodOne(4,"Mansi");
+            //over.MethodOne(6,"mansi");
+            Console.ReadKey();
+
         }
     }
 }
